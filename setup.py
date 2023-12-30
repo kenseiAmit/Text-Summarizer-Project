@@ -7,21 +7,21 @@ __version__ = "0.0.0"
 
 
 REPO_NAME = "END-TO-END-TEXT-SUMARIZATION"
-AUTHOR_USE_NAME = "Amit"
+AUTHOR_USER_NAME = "kenseiAmit"
 SRC_REPO = "TEST-SUMMARIZER-PROJECT"
 AUTHER_EMAIL = "KENSEIAMIT@GMAIL.COM"
 
 setuptools.setup(
     name=SRC_REPO,
     version=__version__,
-    author=AUTHOR_USE_NAME,
+    author=AUTHOR_USER_NAME,
     author_email=AUTHER_EMAIL,
     description="A Python based NLP text summarizer",
     long_description=long_description,
     long_description_content="text/markdown",
-    url=f"https://github.com/{AUTHOR_USE_NAME}/{REPO_NAME}",
+    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
-        "Bug Tracker": f"https://github.com/{AUTHOR_USE_NAME}/{REPO_NAME}/issues"
+        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues"
     },
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src")
