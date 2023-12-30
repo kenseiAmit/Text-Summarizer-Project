@@ -5,7 +5,7 @@ class DataIngestionTrainingPipeline:
     def __init__(self) -> None:
         pass
 
-    def main(self):
+    def main(self) -> None:
         config = ConfigurationManger()
         data_ingestion_config = config.get_data_ingestion_config()
         data_ingestion = DataIngestion(config=data_ingestion_config)
