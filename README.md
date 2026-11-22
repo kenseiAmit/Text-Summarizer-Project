@@ -1,9 +1,13 @@
-# Abstractive Text Summarization Pipeline (PEGASUS + Hugging Face + FastAPI)
+<div align="center">
+  <img src="assets/hero-banner.svg" alt="PEGASUS Abstractive Summarizer" width="100%" />
+  <br/><br/>
+  [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/downloads/)
+  [![Hugging Face Transformers](https://img.shields.io/badge/Hugging%20Face-PEGASUS%20Seq2Seq-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/google/pegasus-cnn_dailymail)
+  [![FastAPI](https://img.shields.io/badge/API-FastAPI%20%2B%20Docker-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-slate?style=flat-square)](LICENSE)
+</div>
 
-[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/downloads/)
-[![Hugging Face Transformers](https://img.shields.io/badge/Hugging%20Face-PEGASUS%20Seq2Seq-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/google/pegasus-cnn_dailymail)
-[![FastAPI](https://img.shields.io/badge/API-FastAPI%20%2B%20Docker-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-slate?style=flat-square)](LICENSE)
+---
 
 Modular, configuration-driven **abstractive dialogue & document summarization MLOps pipeline** fine-tuning [`google/pegasus-cnn_dailymail`](https://huggingface.co/google/pegasus-cnn_dailymail) on the **SAMSum** conversational corpus (`16,369` multi-party dialogues) using **PyTorch**, **Hugging Face Transformers**, immutable `@dataclass` stage entities, structured logging, **FastAPI** serving (`app.py`), and **Docker**.
 
