@@ -1,10 +1,12 @@
 <div align="center">
   <img src="assets/hero-banner.svg" alt="PEGASUS Abstractive Summarizer" width="100%" />
   <br/><br/>
-  [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/downloads/)
-  [![Hugging Face Transformers](https://img.shields.io/badge/Hugging%20Face-PEGASUS%20Seq2Seq-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/google/pegasus-cnn_dailymail)
-  [![FastAPI](https://img.shields.io/badge/API-FastAPI%20%2B%20Docker-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-  [![License: MIT](https://img.shields.io/badge/License-MIT-slate?style=flat-square)](LICENSE)
+  <p>
+    <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.9%2B-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python 3.9+" /></a>
+    <a href="https://huggingface.co/google/pegasus-cnn_dailymail"><img src="https://img.shields.io/badge/Hugging%20Face-PEGASUS%20Seq2Seq-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=black" alt="Hugging Face Transformers" /></a>
+    <a href="https://fastapi.tiangolo.com/"><img src="https://img.shields.io/badge/API-FastAPI%20%2B%20Docker-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" /></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-475569?style=flat-square" alt="License: MIT" /></a>
+  </p>
 </div>
 
 ---
